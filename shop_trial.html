@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Shop-trial</title>
+    <link rel="stylesheet" href="shop_trial.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io1/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    
+    <section id="header">
+        <a href="#"><img src="image/logo_TSS1 (2).ico" alt="" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active" href="shop_trial.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="cart" href="cart.html"><i id="cart_icon" class="fas fa-bag-shopping"></i></a></li>  
+            </ul>
+        </div>
+        <!-- <div class="cart-container">
+            <h2 style="text-align: center; font-size: 1.5rem; font-weight: 600; margin-top: 2rem;"> Cart</h2>
+            <div class="cart-content">
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">₹ 0</div>
+            </div>
+            <button type="button" class="btn-buy">  Buy Now</button>
+            <i class="fa fa-times" id="close-cart"></i>
+
+        </div> -->
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-bag-shopping" style="color: rgb(18,61,106);"></i></a>
+            <i id="bar" class="fa fa-bars"></i>
+        </div>
+    </section>
+    
+
+    <section id="page-header">
+        <h2>#stayHome</h2>
+        <p>Save up to 70% on Coupons!</p>
+    </section>
+
+
+    <section id="gender">
+        <ul id="Gender">
+            <li id="line" onclick="window.location.href='men.html'"><a href="#" class="men" id="men">Men</a></li>
+            <li onclick="window.location.href='women.html'"><a href="#" class="women" id="women">Women</a></li>
+            <li onclick="window.location.href='kids.html'"><a href="#" class="kids" id="kids">Kids</a></li>
+            <li onclick="window.location.href='accessories.html'"><a href="#" class="accessories" id="accessories">Accessories</a></li>
+        </ul>
+    </section>
+
+    <section id="product-1" class="section-p1">
+        <h2>Back in Stock</h2>
+        <div class="pro-container">
+            <div class="pro" >
+                <img class="product-img" onclick="window.location.href='Men_naruto_oversized_jersey.html'" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1682144458_8572552.jpg?format=webp&w=480&dpr=1.3" alt="">
+                <div class="des"  onclick="window.location.href='Men_naruto_oversized_jersey.html'">
+                    <span class="product-title">Naruto: Uchiha 23</span>
+                    <h5>Oversized Jerseys</h5>
+                    <h4 class="price">₹ 999</h4>
+                </div>
+                <button onclick="addCartClicked"><i class="fas fa-shopping-cart add-cart"></i></button>
+            </div>
+            <div class="pro">
+                <img class="product-img" onclick="window.location.href='Men_superman_Polos.html'" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1684489416_4752361.jpg?format=webp&w=480&dpr=1.3" alt="">
+                <div class="des" onclick="window.location.href='Men_superman_Polos.html'">
+                    <span class="product-title">Superman: Fighting Crime</span>
+                    <h5>Oversized Polos</h5>
+                    <h4 class="price">₹ 1199</h4>
+                </div>
+                <button onclick="addCartClicked"><i class="fas fa-shopping-cart add-cart"></i></button>
+            </div>
+            <div class="pro">
+                <img class="product-img" onclick="window.location.href='Men_burgundy_joggers.html'" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1685619201_5559773.jpg?format=webp&w=480&dpr=1.3" alt="">
+                <div class="des" onclick="window.location.href='Men_burgundy_joggers.html'">
+                    <span class="product-title">Solids: Burgundy</span>
+                    <h5>Men Cargo Joggers</h5>
+                    <h4 class="price">₹ 1399</h4>
+                </div>
+                <button onclick="addCartClicked"><i class="fas fa-shopping-cart add-cart"></i></button>
+            </div>
+            <div class="pro">
+                <img class="product-img" onclick="window.location.href='Men_orchid_supima.html'" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1685170590_7494651.jpg?format=webp&w=480&dpr=1.3" alt="">
+                <div onclick="window.location.href='Men_orchid_supima.html'" class="des">
+                    <span class="product-title">Supima: Orchid</span>
+                    <h5>Supima T-Shirts</h5>
+                    <h4 class="price">₹ 899</h4>
+                </div>
+                <button onclick="addCartClicked"><i class="fas fa-shopping-cart add-cart"></i></button>
+            </div>
+            <div class="pro" >
+                <img class="product-img" onclick="window.location.href='cap_adventure.html'" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1686395605_4629312.jpg?format=webp&w=480&dpr=1.3" alt="">
+                <div class="des" onclick="window.location.href='cap_adventure.html'">
+                    <span class="product-title">Rick And Morty: Adventure</span>
+                    <h5>Bucket Hats</h5>
+                    <h4 class="price">₹ 999</h4>
+                </div>
+                <button onclick="addCartClicked"><i class="fas fa-shopping-cart add-cart"></i></button>
+            </div>
+            <div class="pro" >
+                <img class="product-img" onclick="window.location.href='men_TSS_perfumes.html'" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1684153873_4967360.jpg?format=webp&w=480&dpr=1.3" alt="">
+                <div class="des"  onclick="window.location.href='men_TSS_perfumes.html'">
+                    <span class="product-title">TSS Originals: Alchemy</span>
+                    <h5>Men Perfumes</h5>
+                    <h4 class="price">₹ 799</h4>
+                </div>
+                <button onclick="addCartClicked"><i class="fas fa-shopping-cart add-cart"></i></button>
+            </div>
+            <div class="pro" >
+                <img class="product-img" onclick="window.location.href='bags_TSS.html'" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1683273502_9971429.jpg?format=webp&w=480&dpr=1.3" alt="">
+                <div class="des" onclick="window.location.href='bags_TSS.html'">
+                    <span class="product-title">TSS Originals: Colours of Singapore</span>
+                    <h5>Mini Bags</h5>
+                    <h4 class="price">₹ 999</h4>
+                </div>
+                <button onclick="addCartClicked"><i class="fas fa-shopping-cart add-cart"></i></button>
+            </div>
+            <div class="pro" >
+                <img class="product-img" onclick="window.location.href='kids_BP_tshirts.html'" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1687589606_9848495.jpg?format=webp&w=480&dpr=1.3" alt="">
+                <div class="des" onclick="window.location.href='kids_BP_tshirts.html'">
+                    <span class="product-title">Black Panther: Panther Power</span>
+                    <h5>Boys Cotton Oversized T-Shirts</h5>
+                    <h4 class="price">₹ 699</h4>
+                </div>
+                <button onclick="addCartClicked"><i class="fas fa-shopping-cart add-cart"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section id="pagination" class="section-p1">
+        <a class="pag" href="#">1</a>
+        <a class="pag" href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+    </section> -->
+
+    
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletter</h4>
+            <p>get E-mail about our latest Shop and <span>Special Offers</span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Type your E-mail Address">
+            <button class="normal">Sign-Up</button>
+        </div>
+    </section>
+
+
+
+    <footer class="section-p1">
+        
+        <div class="footer-2">
+            <div class="col">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong>444, WTP Road,near Patrika Gate,Jaipur (India)</p>
+                <p><strong>Phone: </strong>(+91) 87694 32567</p>
+                <p><strong>Hours: </strong>08:00 - 19:00, Mon - Sun</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <a href=""><i class="fab fa-facebook-f" style="color:#3b5998"></i></a>
+                        <a href=""><i class="fab fa-twitter" style="color:#1DA1F2"></i></a>
+                        <a href=""><i class="fab fa-instagram" style="color:#E4405F"></i></a>
+                        <a href=""><i class="fab fa-youtube" style="color:#FF0000"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#"  onclick="window.location.href='about.html'">About Us</a>
+                <a href="#"  onclick="window.location.href='delivery.html'">Delivery Information</a>
+                <a href="#"  onclick="window.location.href='privacy.html'">Privacy Policy</a>
+                <a href="#"  onclick="window.location.href='T&C.html'">Terms & Conditions</a>
+                <a href="#"  onclick="window.location.href='contact.html'">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#newsletter" >Sign In</a>
+                <a href="#"  onclick="window.location.href='cart.html'">View Cart</a>
+                <a href="#"  onclick="window.location.href='delivery.html'">Track My Order</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="image/appstore.jpg" alt="">
+                    <img src="image/playstore.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="image/paymethod.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+    <div class="copyright">
+        <p>designed by <a href="https://www.linkedin.com/in/aditya-maan-17777723a">Aditya Maan</a> | all rights reserved!</p>
+    </div>
+   
+
+
+
+
+
+
+
+
+    <script src="shop_trial.js"></script>
+</body>
+</html>

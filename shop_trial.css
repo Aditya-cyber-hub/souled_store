@@ -1,0 +1,2149 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito:wght@200;400;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color:rgb(248, 243, 240);
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+button.normal{
+    font-size: 17px;
+    font-weight: 800;
+    padding: 7px 10px;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
+.section-p1{
+    padding: 2vh;
+}
+.section-m1{
+    margin: 2vh 0;
+}
+body{
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: rgb(234,215,207);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    z-index: 999;
+    position:sticky;
+    top: 0;
+    left: 0;
+}   
+
+
+
+
+
+
+/* .cart-container{
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: rgb(237,199,184);
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition: .3s;
+}
+
+
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+
+}
+.cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+.detail-box{
+    display: grid;
+    row-gap: .3rem;
+}
+.cart-quantity{
+    width: 40px;
+    height: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(18,61,106);
+    outline: none;
+    border: 1px solid rgb(18,61,106);
+    text-align:center;
+}
+.cart-remove{
+    font-size: 24px;
+    color: rgb(18,61,106);
+    cursor: pointer;
+}
+.cart-remove:hover{
+    color: rgb(225,45,45);
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid #000;
+}
+.total .total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.total .total-price{
+    margin-left: .5rem;
+}
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 8px 10px;
+    font-weight: 700;
+    border: 1px solid rgb(18,61,106);
+    color: rgb(18,61,106);
+    border-radius: 3px;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-buy:hover{
+    color: white;
+    border: none;
+    background-color: rgb(18,61,106);
+}
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+.logo{
+    font-size: 100px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(18,61,106);
+}
+#navbar li a:hover,
+#navbar li a.active{ /* active is used to show in which a element we are*/
+    color:rgb(171,59,97);
+}
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: rgb(171,59,97);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+#hero{
+    background-image: url(image/stunning-barefooted-woman-trendy-fur-coat-dancing-laughing-photoshoot.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h4{
+    padding-bottom: 15px;
+}
+#hero h1{
+    padding-bottom: 15px;
+    color: rgb(18,61,106);
+}
+#hero button{
+    background-image: url(image/hero_button.png);
+    background-color: transparent;
+    color: rgb(171,59,97);
+    font-weight: 700;
+    font-size: 25px;
+    border: 0;
+    padding: 7px 60px 0 50px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+#feature{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,.05);
+    background-color: rgb(251, 241, 237);
+    border-radius: 4px;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(0,0,0,.1);
+}
+#feature .fe-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 4px;
+    color: rgb(171,59,97);
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+#product-1{
+    text-align: center;
+}
+#product-1 h2{
+    font-size: 35px;
+}
+#product-1 p{
+    font-size: 20px;
+}
+#product-1 .pro{
+    width: 23%;
+    padding: 5px 7px 5px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgb(251, 241, 237);
+    box-shadow: 20px 20px 30px rgba(0,0,0,.05);
+    transition: 0.2s ease;
+    position: relative;   /* so that in child elements we can position the icons relative to this block*/
+}
+#product-1 .pro:hover{
+    box-shadow: 10px 10px 30px rgba(0,0,0,.3);
+    
+}
+#product-1 .pro img{
+    width: 100%;
+    border-radius: 5px;
+}
+#product-1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product-1 .pro .des span{
+    color: rgb(225,45,45);
+    font-size: 15px;
+    font-weight: bold;
+}
+#product-1 .pro .des h5{
+    padding-top: 3px;
+    color: rgb(18,61,106);
+}
+#product-1 .pro .des .star{
+    font-size: 12px;
+    color: rgb(243,181,25);
+    padding-top: 5px;
+}
+#product-1 .pro .des h4{
+    padding: 5px;
+    color: rgb(18,61,106);
+}
+#product-1 .pro .add-cart{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    color: rgb(18,61,106);
+    font-size: 20px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgb(234,215,207);
+    cursor: pointer;
+}
+#product-1 .pro .add-cart:hover{
+    color: rgb(171,59,97);
+}
+#product-1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;  /*it will break the line into x parts according to width given to 1 box*/
+    padding-top: 20px;
+}
+
+#banner{
+    background-image: url(image/home_banner.jpg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color:#fff;
+    font-size: 16px;
+}
+#banner h2{
+    color:#fff;
+    font-size: 35px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: red;
+}
+#banner button:hover{
+    background-color: rgb(18,61,106);
+    color: white;
+}
+
+
+
+
+
+#sm-banner{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+}
+#sm-banner .banner-box{
+    background-image: url(image/sm_banner_1.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    min-width: 49%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
+#sm-banner h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+#sm-banner h2{
+    color: rgb(18,61,106);
+    font-size: 40px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box button:hover{
+    background-color: rgb(18,61,106);
+    color: white;
+    border: none;
+}
+#sm-banner .banner-box1{
+    background-image: url(image/sm_banner_2.jpg);
+}
+
+
+
+
+
+#banner-3{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+}
+#banner-3 .banner-box{
+    background-image: url(image/banner_3_1.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    min-width: 32%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+#banner-3 .banner-box2{
+    background-image: url(image/banner_3_4.jpg);
+}
+#banner-3 .banner-box3{
+    background-image: url(image/banner_3_3.jpg);
+    
+}
+#banner-3 h2{
+    color: rgb(243,181,25);
+    font-size: 22px;
+    font-weight: 900;
+}
+#banner-3 h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+
+#newsletter{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(image/newsletter.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:5vh;
+}
+#newsletter h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(18,61,106);
+}
+#newsletter p{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+#newsletter span{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(225,45,45);
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+#newsletter input{
+    height: 3.125rem;
+    /* width: 15%; */
+    font-size: 16px;
+    color: black;
+    width: 100%;
+    padding: 0px 1.25em;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: 1px solid transparent;
+
+}
+#newsletter button{
+    height: 3.125rem;
+    width: 30%;
+    border-radius: 0 5px 5px 0;
+    margin-left: none;
+    background-color: rgb(18,61,106);
+    border: none;
+}
+
+
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.5vh;
+}
+.footer-2 .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.section-p1 .footer-1 .logo{
+    width: 15%;
+    margin-bottom: 30px;
+}
+.section-p1 .footer-2 h4{
+    font-size: 20px;
+    padding-bottom: 14px;
+    color: rgb(18,61,106);
+}
+.section-p1 .footer-2 p{
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+.section-p1 .footer-2 .follow{
+    margin-top: 20px;
+}
+.section-p1 .footer-2 .follow .icon i{
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+.section-p1 .footer-2 .col a{
+    text-decoration: none;  
+    color: rgb(88,105,96);
+}
+.copyright p{
+    text-align: center;
+    font-size: 20px;
+}
+.copyright p a{
+    color: rgb(225,45,45);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+#mobile{
+    display: none;
+    align-items: center;
+}
+#header #navbar #close{
+    display: none;
+}
+
+
+
+
+
+#page-header{
+    background-image: url(image/banner_shop.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#page-header h2,
+#page-header p{
+    color: white;
+}
+
+#about_header{
+    background-image: url(image/about_banner.png);
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#about_header h2,
+#about_header p{
+    color: white;
+}
+
+
+#about-head{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+#about-head div{
+    margin: 20px;
+}
+#about-head div h2{
+    font-size: 35px;
+}
+
+#team img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 30px;
+}
+#team div h2{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+#team div p{
+    color: white;
+}
+#team div{
+    background-color: rgb(17,122,122);
+    color: white;
+    text-align: justify;
+    padding: 20px 50px;
+}
+
+
+#contact_details{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh;
+}
+#contact_details .details{
+    width: 40%;
+}
+#contact_details .details h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#contact_details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+#contact_details .details li i{
+    font-size: 20px;
+    padding-right: 22px;
+}
+#contact_details .details li p{
+    margin: 0;
+    font-size: 20px;
+}
+#contact_details .map{
+    width: 55%;
+    height: 50vh;
+    border: 1px solid rgba(255,143,83,.5);
+}
+#contact_details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form_details{
+    margin: 5vh;
+}
+#form_details form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form_details form span{
+    font-size: 25px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+#form_details form input,
+#form_details form textarea{
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    margin: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(255,143,83,.5);
+}
+#form_details form button{
+    background-color: rgb(18,61,106);
+    color: white;
+    font-weight: none;
+    font-size: 15px;
+    margin: 10px 5px;
+}
+
+#men_holiday_banner{
+    margin-top: 2vh;
+}
+#men_holiday_banner img{
+    height: 40vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#gender{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: flex-start;
+    background-color: rgb(18,61,106);
+    padding: 0 100px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    z-index: 999;
+    position:static;
+    top: 105px;
+    left: 0;
+    /* margin: 0 0 10px 0; */
+}
+#Gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gender #Gender li{
+    list-style: none;
+    border-right: 0.1px solid rgb(114, 107, 107);
+    padding: 15px 30px;    
+}
+#gender #Gender #line{
+    border-left: 0.1px solid rgb(114, 107, 107);
+    border-right: 0.1px solid rgb(114, 107, 107);
+}
+#gender #Gender li:hover{
+    background-color:rgb(45, 88, 133);
+    
+}
+#gender #Gender a{
+    text-decoration: none;
+    padding: 0 30px;
+    color:white;
+    font-size: 20px;
+}
+
+#Carousel{
+    margin-bottom: 100px;
+}
+
+.carousel-cell {
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+    cursor: pointer;
+  }
+.carousel-cell img{
+    width: 100%;
+    height: auto;  
+}
+.flickity-prev-next-button {
+    color: white;
+    background-color: transparent;
+}
+.flickity-prev-next-button:hover{
+    color: antiquewhite;
+    background-color: rgb(229,219,207);
+}
+#category h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(18,61,106);
+}
+#category #large_img{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+#category a:hover{
+    opacity: 0.7;
+}
+#category #large_img img{
+    width: 97%;
+}
+#category #small_img{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+#category #small_img img{
+    width: 96%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: rgb(18,61,106);
+    padding: 10px 15px;
+    margin: 5px;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#pagination .pag{
+    padding: 10px 18px;
+}
+
+
+
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+    padding: 3vh;
+}
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+#prodetails .single-pro-image .small-img-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#prodetails .single-pro-image .small-img-group .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h6{
+    font-size: 25px;
+    color: rgb(225,45,45);
+}
+#prodetails .single-pro-details h4{
+    padding: 0 0 20px 0;
+    font-size: 15px;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details select{
+    font-size: 15px;
+    padding: 5px;
+    margin: 15px 10px 15px 0;
+    color: white;
+    background-color: rgb(18,61,106);
+    border: 1px solid rgb(18,61,106);
+}
+#prodetails .single-pro-details h3{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+#prodetails .single-pro-details h3 .detail{
+    font-weight: 500;
+    font-size: 17px;
+}
+/* #prodetails .single-pro-details select option:hover{
+    color: aqua;
+    background-color: black;
+} */
+#prodetails .single-pro-details input{
+    width: 40px;
+    height: 34px;
+    font-size: 15px;
+    margin: 15px;
+    color: white;
+    background-color: rgb(18,61,106);
+    outline: none;
+    border: 2px solid rgb(18,61,106);
+    text-align:center;
+}
+#prodetails .single-pro-details button{
+    font-size: 15px;
+    padding: 5px;
+    margin: 15px 0 15px 80px;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(18,61,106) ;
+    border: 1px solid rgb(18,61,106);
+    cursor: pointer;
+}
+#prodetails .single-pro-details span{
+    text-align: justify;
+}
+
+#prodetails .single-pro-details .cart{
+    color: white;
+    font-size: 20px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgb(18,61,106);
+    width: 40px;
+    line-height: 42px;
+    height: 40px;
+    padding-left: 7px;
+    margin: 0 80px;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+.cart-container{
+    margin: 50px 0;
+}
+.cart-quantity{
+    width: 40px;
+    height: 34px;
+    font-size: 15px;
+    margin: 15px;
+    color: white;
+    background-color: rgb(18,61,106);
+    outline: none;
+    border: 2px solid rgb(18,61,106);
+    text-align:center;
+}
+.cart-container table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+.cart-container table thead{
+    border: 1px solid rgba(255,143,83,.2);
+    border-left: none;
+    border-right: none;
+}
+.cart-container table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 18px 0;
+}
+.cart-container table tbody tr{
+    border-bottom: 1px solid rgba(255,143,83,.2);
+}
+.cart-container table tbody td{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px 0;
+    font-weight: 500;
+}
+.cart-container table tbody td i{
+    font-size: 30px;
+    color: rgb(225,45,45);
+}
+.cart-container table img{
+    width: 90px;
+}
+.cart-container table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+.cart-container table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+.cart-container table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+.cart-container table td:nth-child(4),
+.cart-container table td:nth-child(5),
+.cart-container table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+#cart_header{
+    background-image: url(image/cart.avif);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#cart_header h2,
+#cart_header p{
+    color: rgb(18,61,106);
+}
+
+
+
+
+#cart-add{
+    display: flex;
+    justify-content:end;
+    flex-wrap: wrap;
+}
+.align{
+    text-align: center;
+}
+#cart-add h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+#subtotal{
+    margin-bottom: 30px;
+    width: 50%;
+    border: 1px solid rgba(255,143,83,.5);
+    padding: 30px;
+    background-color: rgb(18,61,106);
+    color: white
+    
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(248,243,240);
+    color: rgb(18,61,106);
+}
+#subtotal table td{
+    width: 50%;
+    border: 1px solid rgba(255,143,83,.5);
+    padding: 10px;
+    font-size: 16px;
+}
+#subtotal button{
+    background-color: rgb(248,243,240);
+    color: rgb(18,61,106);
+    width: 200px;
+}
+
+#shop_btn{
+    background-color: rgb(18,61,106);
+    border: none;
+    margin-top: 50px;
+}
+#delivery{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+footer{
+    border-top: 3px solid rgba(255,143,83,.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:875px){
+    .section-p1{
+        padding: 40px 0;
+    }
+    .section-m1{
+        margin: 30px 0;
+    }
+    #hero{
+        background-position: top 25% right 35%;
+        padding: 0 2vh;
+    }
+    #feature .fe-box{
+        width: 120px;
+        text-align: center;
+        padding: 15px 15px;
+        box-shadow: 20px 20px 34px rgba(0,0,0,.05);
+        background-color: rgb(251, 241, 237);
+        border-radius: 3px;
+    }
+    #product-1 .pro{
+        padding: 5px 7px 5px;
+        margin: 5px;
+        border-radius: 4px;
+        height: auto;
+        box-shadow: 15px 15px 25px rgba(0,0,0,.05);
+    }
+    #product-1 .pro .des{
+        padding: 5px 0;
+    }
+    #product-1 .pro .des span{
+        font-size: 13px;
+    }
+    #product-1 .pro .des h5{
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    #product-1 .pro .des h4{
+        font-size: 15px;
+        padding: 4px;
+        color: rgb(18,61,106);
+    }
+    #product-1 .pro .add-cart{
+        bottom: 15px;
+        right: 15px;
+        width: 30px;
+        line-height: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+    #banner{
+        height: 20vh;
+    }
+    #banner h4{
+        color:#fff;
+        font-size: 14px;
+    }
+    #banner h2{
+        color:#fff;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    #banner h2 span{
+        color: red;
+    }
+
+
+    #sm-banner{
+        padding: 10px;
+    }
+    #sm-banner .banner-box{
+        height: 25vh;
+        padding: 15px;
+    }
+    #sm-banner h4{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #sm-banner h2{
+        color: rgb(18,61,106);
+        font-size: 30px;
+        font-weight: 800;
+    }
+    #sm-banner span{
+        color:black;
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    #sm-banner button{
+        font-size: 1.5vh;
+    }
+
+
+    #banner-3{
+        padding:10px;
+    }
+    #banner-3 .banner-box{
+        min-width: 32%;
+        height: 25vh;
+        padding: 13px;   
+    }
+    #banner-3 h2{
+        font-size: 17px;
+    }
+    #banner-3 h3{
+        font-size: 14px;
+    } 
+
+    
+    #newsletter{
+       padding:2vh;
+    }
+    #newsletter h4{
+        font-size: 22px;
+        font-weight: 700;
+        color: rgb(18,61,106);
+    }
+    #newsletter p{
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+    }
+    #newsletter span{
+        font-size: 18px;
+        font-weight: 600;
+        color:rgb(225,45,45);
+    }
+    #newsletter .form{
+        display: flex;
+        width: 40%;
+    }
+    #newsletter input{
+        height: 2.5rem;
+        font-size: 16px;
+    }
+    #newsletter button{
+        height: 2.5rem;
+        font-size: 1.15vh;
+    }
+    
+
+
+    #page-header{
+        height: 20vh;
+    }
+
+
+    #gender{
+        padding: 0px;
+    }
+
+    #about_header{
+        height: 25vh;
+        padding: 14px;
+    }
+    #about_header h2{
+        font-size: 35px;
+    }
+    
+
+    #men_holiday_banner img{
+        height: 30vh;
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:799px){
+   
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        padding-left: 20px;
+        font-size: 24px;
+        color: rgb(18,61,106);
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300%;
+        height: 40vh;
+        width: 30vh;
+        background-color: rgb(234,215,207);
+        box-shadow: 0 40px 60px rgba(0,0,0,.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar li{
+        margin-bottom: 10px;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #header #navbar .cart{
+        display: none;
+    }
+    #header #navbar #close{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        color:rgb(18,61,106) ;
+        font-size: 30px;
+        text-decoration: none;
+    }  
+    .section-p1{
+        padding: 40px 0;
+    }
+    .section-m1{
+        margin: 30px 0;
+    }
+    #hero{
+        background-position: top 25% right 35%;
+        padding: 0 2vh;
+    }
+    #feature{
+        display: flex;
+        text-align: center;
+        justify-content:space-between;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        padding: 0 40px;
+    }
+    #feature .fe-box{
+        width: 150px;
+        margin: 1.5vh;
+        text-align: center;
+        padding: 15px 15px;
+        box-shadow: 20px 20px 34px rgba(0,0,0,.05);
+        background-color: rgb(251, 241, 237);
+        border-radius: 3px;
+    }
+    #product-1 .pro{
+        padding: 5px 7px 5px;
+        margin: 5px;
+        border-radius: 4px;
+        height: auto;
+        box-shadow: 15px 15px 25px rgba(0,0,0,.05);
+    }
+    #product-1 .pro .des{
+        padding: 5px 0;
+    }
+    #product-1 .pro .des span{
+        font-size: 13px;
+    }
+    #product-1 .pro .des h5{
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    #product-1 .pro .des h4{
+        font-size: 15px;
+        padding: 4px;
+        color: rgb(18,61,106);
+    }
+    #product-1 .pro .add-cart{
+        bottom: 15px;
+        right: 15px;
+        width: 30px;
+        line-height: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+    #banner{
+        height: 18vh;
+    }
+    #banner h4{
+        color:#fff;
+        font-size: 14px;
+    }
+    #banner h2{
+        color:#fff;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    #banner h2 span{
+        color: red;
+    }
+
+
+    #sm-banner{
+        padding: 10px;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+    #sm-banner .banner-box{
+        height: 25vh;
+        padding: 15px;
+        width: 0%;
+    }
+    #sm-banner h4{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #sm-banner h2{
+        color: rgb(18,61,106);
+        font-size: 30px;
+        font-weight: 800;
+    }
+    #sm-banner span{
+        color:black;
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    #sm-banner button{
+        font-size: 1.5vh;
+    }
+
+
+    #banner-3{
+        display: none;
+    }
+   
+
+    
+    #newsletter{
+       padding:1.5vh;
+    }
+    #newsletter h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(18,61,106);
+    }
+    #newsletter p{
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+    }
+    #newsletter span{
+        font-size: 18px;
+        font-weight: 600;
+        color:rgb(225,45,45);
+    }
+    #newsletter .form{
+        display: flex;
+        justify-content: right;
+        width: 50%;
+    }
+    #newsletter input{
+        height: 2.5rem;
+        font-size: 16px;
+    }
+    #newsletter button{
+        height: 2.5rem;
+        font-size: 1.1vh;
+    }
+    
+    #gender #Gender li{
+        padding: 10px 18px;    
+    }
+    #gender #Gender a{
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 70%;
+        height: 40vh;
+        margin: 0 auto;
+        display: block;
+    }
+    #about-head div{
+        margin: 20px;
+    }
+    #about-head div h2{
+        font-size: 33px;
+        text-align: center;
+    }
+
+
+
+
+
+
+    #contact_details{
+        margin: 2vh;
+    }
+    #contact_details .details h3{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    #contact_details .details li i{
+        font-size: 18px;
+    }
+    #contact_details .details li p{
+        font-size: 18px;
+    }
+    #contact_details .map{
+        height: 40vh;
+    }
+    
+    #form_details{
+        margin: 3vh;
+    }
+    #form_details form{
+        width: 70%;
+    }
+    #form_details form span{
+        font-size: 25px;
+        margin: 20px 0;
+        font-weight: 600;
+    }
+    #form_details form input,
+    #form_details form textarea{        
+        font-size: 16px;
+    }
+    #form_details form textarea{
+        height: 15vh;
+    }
+    #form_details form button{
+        font-size: 15px;
+        margin: 10px 5px;
+    }
+
+    #category h2{
+        font-size: 35px;
+    }
+
+    #men_holiday_banner img{
+        height: 25vh;
+        width: 100%;
+    }
+
+
+    #prodetails .single-pro-details select{
+        font-size: 12px;
+        padding: 5px;
+        margin: 15px 0;
+    }
+    #prodetails .single-pro-details input{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        margin: 15px 5px;
+    }
+    #prodetails .single-pro-details button{
+        font-size: 12px;
+        padding: 5px;
+        margin: 15px 0;
+    }
+    #prodetails .single-pro-details h3{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    #prodetails .single-pro-details span{
+        font-size: 15px;
+    }
+    #prodetails .single-pro-details h3 .detail{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    #prodetails .single-pro-image{
+        width: 45%;
+        margin-right: 30px;
+        margin-top: 40px;
+    }
+}
+
+
+   
+
+
+
+
+
+
+@media screen and (max-width:625px){
+    .section-p1{
+        padding: 40px 0;
+    }
+    .section-m1{
+        margin: 30px 0;
+    }
+    #hero{
+        background-position: top 25% right 35%;
+        padding: 0 1.5vh;
+    }
+    #feature{
+        display: flex;
+        text-align: center;
+        justify-content:space-between;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    #feature .fe-box{
+        width: 110px;
+        text-align: center;
+        padding: 15px ;
+        box-shadow: 20px 20px 34px rgba(0,0,0,.05);
+        background-color: rgb(251, 241, 237);
+        border-radius: 3px;
+    }
+    #product-1 .pro-container{
+        display: flex;
+        justify-content: start;
+        text-align: center;
+        flex-wrap: wrap;  /*it will break the line into x parts according to width given to 1 box*/
+        padding-top: 20px;
+    }
+    #product-1 .pro{
+        width: 28%;
+        padding: 5px 7px 5px;
+        margin: 5px 15px;
+        border-radius: 4px;
+        height: auto;
+        box-shadow: 15px 15px 25px rgba(0,0,0,.05);
+    }
+    #product-1 .pro .des{
+        padding: 5px 0;
+    }
+    #product-1 .pro .des span{
+        font-size: 13px;
+    }
+    #product-1 .pro .des h5{
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    #product-1 .pro .des h4{
+        font-size: 15px;
+        padding: 4px;
+        color: rgb(18,61,106);
+    }
+    #product-1 .pro .add-cart{
+        bottom: 15px;
+        right: 15px;
+        width: 30px;
+        line-height: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+    #banner{
+        height: 18vh;
+    }
+    #banner h4{
+        color:#fff;
+        font-size: 14px;
+    }
+    #banner h2{
+        color:#fff;
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    #banner h2 span{
+        color: red;
+    }
+
+    
+
+
+    #sm-banner{
+        padding: 10px;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+    #sm-banner .banner-box{
+        height: 20vh;
+        padding: 5px;
+    }
+    #sm-banner h4{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #sm-banner h2{
+        color: rgb(18,61,106);
+        font-size: 15px;
+        font-weight: 800;
+        padding: 0;
+    }
+    #sm-banner button{
+        font-size: 1.5vh;
+    }
+
+
+    #banner-3{
+        display: none;
+    }
+   
+
+    
+    #newsletter{
+       padding:1.5vh;
+    }
+    #newsletter h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(18,61,106);
+    }
+    #newsletter p{
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+    }
+    #newsletter span{
+        font-size: 18px;
+        font-weight: 600;
+        color:rgb(225,45,45);
+    }
+    #newsletter .form{
+        display: flex;
+        justify-content: right;
+        width: 50%;
+    }
+    #newsletter input{
+        height: 2.5rem;
+        font-size: 16px;
+    }
+    #newsletter button{
+        height: 2.5rem;
+        font-size: 1.1vh;
+    }
+
+
+    #about-head img{
+        height: 30vh;
+    }
+    #about-head div{
+        margin: 20px;
+    }
+    #about-head div h2{
+        font-size: 30px;
+    }
+
+
+
+
+    #contact_details{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 3vh;
+    }
+    #contact_details .details{
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    #contact_details .details h3{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    #contact_details .details li i,
+    #contact_details .details li p{
+        font-size: 16px;
+    }
+    #contact_details .map{
+        height: 35vh;
+        width: 100%;
+    }
+    
+    #form_details form{
+        width: 80%;
+    }
+    #form_details form span{
+        font-size: 22px;
+        margin: 10px 1vh;
+    }
+    #form_details form input,
+    #form_details form textarea{        
+        font-size: 16px;
+    }
+
+    #about_header{
+        height: 20vh;
+    }
+    #about_header h2{
+        font-size: 30px;
+    }
+    #about_header p{
+        font-size: 15px;
+    }
+
+
+
+    .flickity-prev-next-button {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 1vh;
+    }
+    #prodetails .single-pro-image .small-img-group{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-left: 1vh;
+    }
+    #prodetails .single-pro-image .big_image img {
+        height: 60vh;
+    }
+    .small-img-col img{
+        width: 17vh;
+        height: 14vh;
+        margin-bottom: 0;
+    }
+    #prodetails .single-pro-details{
+        width: 90%;
+        padding-top: 30px;
+        margin: 1vh;
+    }
+    
+}
+
+
+@media screen and (max-width:565px){
+    #product-1 .pro-container{
+        margin-left: 15px;
+    }
+    #product-1 .pro{
+        margin: 5px 12px;
+    }
+
+    #gender #Gender li{
+        padding: 10px 10px;    
+    }
+    #gender #Gender a{
+        padding: 0 18px;
+        font-size: 16px;
+    }
+
+    #about-head img{
+        height: 30vh;
+        width: 80%;
+    }
+    #about-head div{
+        margin: 10px;
+    }
+    #about-head div h2{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:465px){
+    #product-1 .pro{
+        width: 40%;
+        padding: 5px 7px 5px;
+        margin: 5px 18px;
+        border-radius: 4px;
+        height: auto;
+        box-shadow: 15px 15px 25px rgba(0,0,0,.05);
+    }
+    #product-1 .pro .des{
+        padding: 5px 0;
+    }
+    #product-1 .pro .des span{
+        font-size: 13px;
+    }
+    #product-1 .pro .des h5{
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    #product-1 .pro .des h4{
+        font-size: 15px;
+        padding: 4px;
+        color: rgb(18,61,106);
+    }
+    #product-1 .pro .add-cart{
+        bottom: 15px;
+        right: 15px;
+        width: 30px;
+        line-height: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    #banner{
+        height: 18vh;
+    }
+    #banner h4{
+        color:#fff;
+        font-size: 12px;
+    }
+    #banner h2{
+        color:#fff;
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    #banner h2 span{
+        color: red;
+    }
+    #banner button{
+        font-size: 10px;
+    }
+    #sm-banner{
+        padding: 10px;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+    #sm-banner .banner-box{
+        height: 20vh;
+        padding: 5px;
+    }
+    #sm-banner h4{
+        color: #fff;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    #sm-banner h2{
+        color: rgb(18,61,106);
+        font-size: 12px;
+        font-weight: 800;
+        padding: 0;
+    }
+    #sm-banner button{
+        font-size: 1.5vh;
+    }
+
+     #newsletter h4{
+         font-size: 16px;
+     }
+     #newsletter p{
+         font-size: 14px;
+
+     }
+     #newsletter span{
+         font-size: 14px;
+     }
+     #newsletter .form{
+
+         width: 80%;
+     }
+     #newsletter input{
+         height: 1.5rem;
+     }
+     #newsletter button{
+         height: 1.5rem;
+         font-size: 1.1vh;
+     }
+
+    #gender #Gender li{
+        padding: 7px 7px;    
+    }
+    #gender #Gender a{
+        padding: 0 12px;
+        font-size: 14px;
+    }
+
+    #about-head img{
+        height: 30vh;
+        width: 80%;
+    }
+    #about-head div{
+        margin: 10px;
+    }
+    #about-head div h2{
+        font-size: 20px;
+    }
+    #about-head div p{
+        font-size: 14px;
+    }
+    #team div p{
+        font-size: 14px;
+    }
+
+    #about_header{
+        height: 15vh;
+    }
+    #about_header h2{
+        font-size: 25px;
+    }
+    #about_header p{
+        font-size: 13px;
+    }
+
+
+    #category h2{
+        font-size: 30px;
+    }
+
+
+    #men_holiday_banner img{
+        height: 20vh;
+        width: 100%;
+    }
+}
