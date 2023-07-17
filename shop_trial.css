@@ -562,6 +562,24 @@ body{
 
 
 
+/* .product-add-cart{
+    position:relative;
+    width: 36px;
+    line-height: 36px;
+    padding:0 0 0 6px;
+    height: 36px;
+    color: white;
+    font-size: 20px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgb(18,61,106);
+    cursor: pointer;
+}
+.product-add-cart:hover{
+    color: rgb(171,59,97);
+} */
+
+
 
 
 
@@ -928,12 +946,15 @@ body{
 #prodetails .single-pro-details button{
     font-size: 15px;
     padding: 5px;
-    margin: 15px 0 15px 80px;
+    margin: 15px 0 0 30px;
     color: white;
     font-weight: 500;
     background-color: rgb(18,61,106) ;
     border: 1px solid rgb(18,61,106);
     cursor: pointer;
+}
+#prodetails .single-pro-details button .wishlist{
+    padding: 0px 10px 0 0;
 }
 #prodetails .single-pro-details span{
     text-align: justify;
